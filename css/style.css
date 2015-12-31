@@ -1,10 +1,42 @@
 body{ margin:0px 0px; }
 
 #hero{
-  background-image:url(https://chrisaam.files.wordpress.com/2015/03/wallpaper-2846361.jpg);
+  background-image: linear-gradient(#128143, #005E94);
+  background-image: -webkit-linear-gradient(#128143, #005E94);
   background-size:cover;
   position:relative;
   height:100vh;
+  font-family: 'Roboto';
+}
+
+#hero h2 {
+  font-weight: 100;
+}
+
+#hero hr {
+  width: 280px;
+  margin-top: -40px;
+  background-color:white;
+}
+
+#hero p {
+  font-family: 'Open Sans';
+  font-weight: 100;
+  font-size: 12pt;
+}
+
+#quote {
+  quotes: "“" "”" "‘" "’";
+}
+#quote:before {
+    content: open-quote;
+}
+#quote:after {
+    content: close-quote;
+}
+
+#hero #quote {
+  font-style:italic;
 }
 
 .header{
@@ -16,7 +48,7 @@ body{ margin:0px 0px; }
   font-size:36px;
   -ms-transform: translate(0,-50%); /* IE 9 */
    	-webkit-transform: translate(0,-50%); /* Safari */
-    transform: translate(0,-50%);  
+    transform: translate(0,-50%);
 
 }
 
