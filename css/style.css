@@ -37,22 +37,22 @@ html, body{ margin:0px 0px; width: 100%;}
   font-family: 'Roboto';
   font-weight:100;
   font-size: 60px;
-  margin-top: 0;
+  margin-top: 5px;
 }
 
 
 .header .lead {
-  text-align:center;
-  margin-top: -35px;
-  color:white;
+  text-align:center!important;
+  /*margin-top: -35px!important;*/
+  color:white!important;
 }
 
 .lead {
   font-size: 20px;
   font-family: 'Open Sans', 'Helvetica', 'Arial';
-  font-weight: 300;
-  color: grey;
-  line-height: 130%;
+  font-weight: 300!important;
+  color: grey!important;
+  line-height: 130%!important;
   width: 400px;
   text-align: justify;
 }
@@ -129,8 +129,8 @@ a:visited {
 @media only screen and (max-width: 500px) {
   .header h1 {
     font-size: 50px;
-    padding-bottom: 10px;
-    padding-top: 5px;
+    padding-bottom: 10px!important;
+    padding-top: 5px!important;
   }
 
   .lead {
