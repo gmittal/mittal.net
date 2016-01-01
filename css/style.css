@@ -6,7 +6,7 @@ html, body{ margin:0px 0px; width: 100%;}
   background-size:cover;
   position:relative;
   height:100vh;
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'Helvetica Neue';
 }
 
 #hero hr {
@@ -49,7 +49,7 @@ html, body{ margin:0px 0px; width: 100%;}
 
 .lead {
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', 'Helvetica', 'Arial';
   font-weight: 300;
   color: grey;
   line-height: 130%;
@@ -87,7 +87,7 @@ html, body{ margin:0px 0px; width: 100%;}
 
 .content{
   border-top: 1px solid rgb(220, 220, 220);
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', 'Helvetica', 'Arial';
   padding:50px 0px;
   text-align:center;
   width:80%;
@@ -95,7 +95,7 @@ html, body{ margin:0px 0px; width: 100%;}
 }
 
 .content h2{
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'Helvetica Neue';
   font-size: 30pt;
   font-weight: 100;
   margin:0px 0px 30px 0px;
@@ -105,7 +105,7 @@ html, body{ margin:0px 0px; width: 100%;}
   padding:30px 0px;
   text-align:center;
   background:rgb(240, 240, 240);
-  font-family:'Roboto';
+  font-family:'Roboto', 'Helvetica Neue';
   font-weight: 300;
 }
 
