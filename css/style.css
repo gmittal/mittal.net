@@ -88,8 +88,8 @@ html, body{ margin:0px 0px; width: 100%;}
 .content{
   border-top: 1px solid rgb(220, 220, 220);
   font-family: 'Open Sans', 'Helvetica', 'Arial';
-  padding:50px 0px;
-  text-align:center;
+  padding:30px 0px;
+  text-align:justify;
   width:80%;
   margin:0px auto;
 }
@@ -99,6 +99,7 @@ html, body{ margin:0px 0px; width: 100%;}
   font-size: 30pt;
   font-weight: 100;
   margin:0px 0px 30px 0px;
+  text-align:left;
 }
 
 #footer{
